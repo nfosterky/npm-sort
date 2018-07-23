@@ -9,6 +9,11 @@ const bubbleSort = (array) => {
   return array;
 };
 
+const superFastSort = (array) => {
+  return array.sort();
+}
+
 module.exports = {
-  bubbleSort
+  bubbleSort,
+  superFastSort
 };
